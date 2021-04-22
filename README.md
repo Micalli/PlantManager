@@ -43,6 +43,6 @@ Many people have plants at home and always forget to water them. Well your probl
 
 <div align="center">
   <h1>Open Source</h1>
-  <sub>Copyright © 2021-Present, Micalli.</sub>
+  <sub>Copyright © 2021-Present, Micalli."\n"</sub>
   <img src="/assets/icon.png" width="35" />
 </div>
