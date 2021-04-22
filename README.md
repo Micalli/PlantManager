@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="/.github/icon.png" width="120" />    
+    <img src="/assets/icon.png" width="120" />    
     <h1>PlantManager</h1>  
     <p>🌱 Application to help people take care of their plants.</p>    
     <hr />    
