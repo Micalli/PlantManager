@@ -1,7 +1,7 @@
 import React from "react";
 
 import { SafeAreaView, StyleSheet, Text, View } from "react-native";
-
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { Button } from "../components/Button";
 
 import colors from "../styles/colors";
@@ -9,7 +9,7 @@ import fonts from "../styles/fonts";
 
 export function Confirmation() {
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaProvider style={styles.container}>
       <View style={styles.content}>
         <Text style={styles.emoji}>😄</Text>
 
@@ -18,14 +18,13 @@ export function Confirmation() {
         <Text style={styles.subtitle}>
           Agora vamos começar a cuidar das suas plantinhas com muito cuidado.
         </Text>
-
         <View style={styles.footer}>
           <Button 
           title="Começar"
           />
         </View>
       </View>
-    </SafeAreaView>
+    </SafeAreaProvider>
   );
 }
 
@@ -43,7 +42,7 @@ const styles = StyleSheet.create({
     padding: 30,
   },
   title: {
-    fontSize: 22,
+    fontSize: 25,
     fontFamily: fonts.heading,
     textAlign: "center",
     color: colors.heading,
@@ -53,7 +52,7 @@ const styles = StyleSheet.create({
   subtitle: {
     fontFamily: fonts.text,
     textAlign: "center",
-    fontSize: 17,
+    fontSize: 20,
     paddingVertical: 10,
     color: colors.heading,
   },

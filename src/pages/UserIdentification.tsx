@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import {
   SafeAreaView,
   StyleSheet,
@@ -11,7 +12,7 @@ import {
   Keyboard,
 } from "react-native";
 
-import { useNavigation } from "@react-navigation/core";
+import { useNavigation } from "@react-navigation/native";
 
 import { Button } from "../components/Button";
 
@@ -44,7 +45,7 @@ export function UserIdentification() {
   }
 
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaProvider style={styles.container}>
       <KeyboardAvoidingView
         style={styles.container}
         behavior={Platform.OS === "ios" ? "padding" : "height"}
@@ -53,7 +54,7 @@ export function UserIdentification() {
           <View style={styles.content}>
             <View style={styles.form}>
               <View style={styles.header}>
-                <Text style={styles.emoji}>{isFilled ? "😄" : "😀"}</Text>
+                <Text style={styles.emoji}>{isFilled ? "😄" : "🙂"}</Text>
                 <Text style={styles.title}>
                   Como podemos {"\n"}
                   chamar você?
@@ -77,7 +78,7 @@ export function UserIdentification() {
           </View>
         </TouchableWithoutFeedback>
       </KeyboardAvoidingView>
-    </SafeAreaView>
+    </SafeAreaProvider>
   );
 }
 
