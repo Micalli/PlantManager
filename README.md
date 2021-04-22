@@ -40,10 +40,6 @@ Many people have plants at home and always forget to water them. Well your probl
 
 - [Micalli](https://github.com/Micalli)
 
-<br>
-<br>
-<br>
-<br>
 
 <div align="center">
   <h1>Open Source</h1>
