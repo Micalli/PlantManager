@@ -15,8 +15,9 @@
 # About
 
 Many people have plants at home and always forget to water them. Well your problems are over, the Plant Manager came to remind you to be lazy that only stays on the PC all day, water your little platter that is dying of thirst. The app will send a notification to your cell phone every time you need to water your plant according to the type it is.
-
-<img src="/assets/cover.png" width="700" /> 
+<div align="center">
+    <img src="/assets/cover.png" width="700" /> 
+</div>
 
 # Techs
 
