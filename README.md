@@ -4,10 +4,10 @@
     <p>🌱 Application to help people take care of their plants.</p>    
     <hr />    
     <p>
-        <a href="https://rocketseat.com/"><img src="https://img.shields.io/badge/type-nlw-purple" alt="Repo Type" /></a>
+        <a href="https://rocketseat.com.br/"><img src="https://img.shields.io/badge/type-nlw-purple" alt="Repo Type" /></a>
         <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/language-typescript-blue" alt="Repo Main Language" /></a>
         <img src="https://img.shields.io/badge/platform-mobile-blueviolet" alt="Project Platform" />                
-        <a href="https://github.com/zevdvlpr/plantmanager/tree/dev/LICENSE"><img src="https://img.shields.io/github/license/zevdvlpr/plantmanager?color=red&label=license" alt="Repo License" /></a>
+        <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/github/license/zevdvlpr/plantmanager?color=red&label=license" alt="Repo License" /></a>
     </p>     
     <p><a href="https://www.linkedin.com/in/brunomicalli/" target="_blank"><img src="https://img.shields.io/twitter/url?label=Connect%20%40BrunoMicalli&logo=linkedin&url=https%3A%2F%2Fwww.twitter.com%2zevdvlpr%2F" alt="Follow" /></a><p>
 </div>
