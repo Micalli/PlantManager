@@ -45,5 +45,5 @@ Many people have plants at home and always forget to water them. Well your probl
   <h1>Open Source</h1>
   <sub>Copyright © 2021-Present, Micalli.</sub>
     <br>
-  <img src="/assets/icon.png" width="35" />
+  <img src="/assets/icon.png" width="40" />
 </div>
